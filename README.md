@@ -15,7 +15,7 @@
 
 ### Visão Geral
 
-Atuo há **5 anos de experiência** conectando engenharia analítica, modelagem dimensional e inteligência de negócios à tomada de decisão executiva. Meu foco prático está em desenhar pipelines determinísticos, eliminar gargalos de processamento em grandes volumes de dados e entregar camadas analíticas confiáveis para Produto, Customer Success, Operações e Diretoria.
+Com **5 anos de experiência**, atuo conectando engenharia analítica, modelagem dimensional e inteligência de negócios à tomada de decisão executiva. Meu foco prático está em desenhar pipelines determinísticos, eliminar gargalos de processamento em grandes volumes de dados e entregar camadas analíticas confiáveis para Produto, Customer Success, Operações e Diretoria.
 
 Construo arquiteturas no modelo Medallion (Bronze, Silver e Gold) priorizando simplicidade operacional: processamento local e ágil com DuckDB e dbt quando o objetivo é velocidade e validação rápida de regras, e escalabilidade em nuvem (AWS S3, Glue e Athena) quando a demanda envolve grandes volumes e governança centralizada.
 
