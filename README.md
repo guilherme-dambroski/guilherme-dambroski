@@ -1,43 +1,56 @@
+<div align="center">
+
 # Guilherme Dambroski
+
 ### Analista de Dados Sênior | Analytics Engineer
 
-[![Portfólio](https://img.shields.io/badge/Portfólio-guilherme--dambroski.web.app-0B0F17?style=flat-square&logo=google-chrome&logoColor=38bdf8)](https://guilherme-dambroski.web.app/pt-br/data)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-guilherme--dambroski-0B0F17?style=flat-square&logo=linkedin&logoColor=0077b5)](https://www.linkedin.com/in/guilherme-dambroski/)
-[![Local](https://img.shields.io/badge/Local-Brasil%20(100%25%20Remoto)-0B0F17?style=flat-square&logo=linux&logoColor=34d399)](https://guilherme-dambroski.web.app/pt-br/data)
+[![Portfólio](https://img.shields.io/badge/Portfólio-guilherme--dambroski.web.app-0B0F17?style=for-the-badge&logo=google-chrome&logoColor=38bdf8)](https://guilherme-dambroski.web.app/pt-br/data)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-guilherme--dambroski-0B0F17?style=for-the-badge&logo=linkedin&logoColor=0077b5)](https://www.linkedin.com/in/guilherme-dambroski/)
+[![Experiência](https://img.shields.io/badge/Experiência-5%20Anos%20de%20Experiência-0B0F17?style=for-the-badge&logo=codewars&logoColor=34d399)](https://guilherme-dambroski.web.app/pt-br/data)
+[![Regime](https://img.shields.io/badge/Regime-100%25%20Remoto-0B0F17?style=for-the-badge&logo=linux&logoColor=f43f5e)](https://guilherme-dambroski.web.app/pt-br/data)
+
+</div>
 
 ---
 
-## Sobre Mim
-Com **5 anos de experiência** em análise de dados e engenharia analítica, atuo na transformação de grandes volumes de dados brutos em decisões estratégicas de negócio. Especializado em modelagem dimensional (**Star Schema**), arquitetura Medallion (Bronze/Silver/Gold) e pipelines analíticos escaláveis.
+### Visão Geral & Atuação
 
-- **Engenharia Analítica & Otimização:** Otimização de consultas analíticas e rotinas ETL (redução de 3 minutos para 10 segundos em queries de churn e retenção utilizando SQL, dbt Core e Airflow).
-- **Visualização & BI Corporativo:** Mais de 50 dashboards corporativos entregues em Amazon QuickSight (incluindo QuickSight Embedded com RLS), Power BI e Tableau.
-- **Ambiente & Infraestrutura:** Usuário e entusiasta de sistemas Linux (CachyOS LTO, ZimaOS Homelab), automações em Python, Docker e bancos relacionais.
+Com **5 anos de experiência** em análise de dados e engenharia analítica, atuo na transformação de grandes volumes de dados brutos em decisões estratégicas de negócio, estabelecendo uma ponte técnica e resolutiva entre Engenharia, Produto, CS, Operações e Diretoria.
+
+- **Modelagem & Pipelines:** Especializado em modelagem dimensional (**Star Schema**), arquitetura Medallion (Bronze/Silver/Gold) e pipelines com **dbt Core**, **Apache Airflow** e **DuckDB**.
+- **Otimização de Performance:** Diagnóstico e refatoração de consultas analíticas e rotinas ETL (como a redução de queries de 3 minutos para 10 segundos na análise de churn e retenção).
+- **BI & Visualização Corporativa:** Mais de 50 dashboards corporativos desenvolvidos e sustentados em **Amazon QuickSight** (QuickSight Embedded com **RLS**), **Power BI** e **Tableau**.
+- **Ambiente & Infraestrutura:** Usuário avançado de **Linux** (CachyOS LTO, ZimaOS Homelab), automações em **Python**, **Docker** e bancos relacionais.
 
 ---
 
-## Stack Técnica & Ferramentas
+### Stack Técnica Principal
 
-| Domínio | Tecnologias e Ferramentas |
+| Domínio | Ferramentas & Tecnologias |
 | :--- | :--- |
-| **Engenharia de Dados & SQL** | SQL Avançado (CTEs, Window Functions, Query Tuning), dbt Core, DuckDB, Apache Airflow, Python |
-| **Cloud & Storage** | AWS (S3, Glue, Athena), BigQuery / GCP (consultas e validações pontuais) |
-| **Business Intelligence & BI** | Amazon QuickSight (Embedded / RLS), Power BI, Tableau Cloud, Excel Avançado |
-| **Bancos de Dados Relacionais** | PostgreSQL, SQL Server |
-| **Sistemas & Automação** | CachyOS Linux (Kernel BORE LTO), ZimaOS (Docker Homelab), Bash, Git |
+| **Engenharia Analítica & Modelagem** | dbt Core, Apache Airflow, DuckDB, Modelagem Dimensional (Star Schema), Arquitetura Medallion |
+| **SQL & Bancos de Dados** | SQL Avançado (CTEs, Window Functions, Query Tuning), PostgreSQL, SQL Server |
+| **Business Intelligence & Visualização** | Amazon QuickSight (Embedded / RLS), Power BI, Tableau Cloud, Excel Avançado |
+| **Cloud & Armazenamento** | AWS (S3, Glue, Athena), GCP / BigQuery (consultas e validações analíticas diárias) |
+| **Sistemas, Linguagens & Automação** | Python, Bash/Shell, Docker, CachyOS Linux (Kernel BORE LTO), ZimaOS Homelab |
 
 ---
 
-## Projetos Analíticos em Destaque
+### Casos Reais & Projetos em Destaque
 
-- **Quality Gate B3 com DuckDB e dbt Core:** Pipeline analítico local com validação estrita de contratos de dados e bloqueio determinístico de inconsistências em dados de pregão e balanços financeiros.
-- **Tuning de Performance SQL (3min para 10s):** Refatoração de pipelines analíticos de clientes e métricas de receita recorrente na Locaweb/Wake, reduzindo em 98% o tempo de resposta e em 30% o backlog do time de CS.
-- **Arquitetura Medallion e Ingestão Cloud:** Estruturação de camadas Bronze, Silver e Gold integrando SQL Server para AWS S3, Glue e Athena com catálogo analítico unificado.
-- **Segundo Cérebro e Gateway de Automação:** Sistema autônomo local de indexação em grafo (100+ nós) e roteamento de modelos com zero sobrecarga de hardware.
+- [**Quality Gate B3 com DuckDB e dbt Core**](https://github.com/guilherme-dambroski/neoway)
+  Pipeline de dados analítico com testes de contrato, validação determinística de CNPJs e balanços de pregão, garantindo consistência estrita antes da publicação analítica.
+- **Tuning de Performance SQL (3min para 10s):**
+  Refatoração profunda de queries e pipelines de clientes na Locaweb/Wake, gerando ganho de 98% em velocidade de resposta e reduzindo em 30% os chamados pendentes do time de Customer Success.
+- **Arquitetura Medallion e Ingestão Cloud:**
+  Estruturação de camadas Bronze, Silver e Gold integrando cargas transacionais de SQL Server para AWS S3, catalogação no AWS Glue e consultas via Athena com catálogo analítico unificado.
+- **Segundo Cérebro Autônomo & Homelab:**
+  Sistema local de indexação em grafo (100+ nós conectados) e orquestração de rotinas em CachyOS e ZimaOS com zero sobrecarga de hardware.
 
 ---
 
-## Onde me Encontrar
+### Contato & Portfólio
+
 - **Portfólio Analítico:** [guilherme-dambroski.web.app/pt-br/data](https://guilherme-dambroski.web.app/pt-br/data)
 - **LinkedIn:** [linkedin.com/in/guilherme-dambroski](https://www.linkedin.com/in/guilherme-dambroski)
-- **Contato:** guilherme.dambroski7@gmail.com
+- **E-mail:** [guilherme.dambroski7@gmail.com](mailto:guilherme.dambroski7@gmail.com)
